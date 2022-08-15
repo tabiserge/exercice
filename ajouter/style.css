@@ -1,0 +1,26 @@
+body{
+	padding: 20px;
+	background:#eee;
+	margin:0 auto;
+}
+.page_commentaire{
+	position: relative;
+	border: 1px solid #000;
+	width: 50%;
+	margin: 5px;
+}
+.page_commentaire h4{
+	background-color: #000;
+	color: #fff;
+	font-size: 20px;
+	margin:0;
+	text-align: center;
+}
+
+.comment .button_supprimer a,
+.comment .button_modifier a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 8px;
+    background: red;
+}
